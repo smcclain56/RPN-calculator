@@ -1,0 +1,12 @@
+This is the README FILE for the third homework which is creating an RPN calculator. 
+@Author Sarah McClain
+@Data 2/18/19
+
+This program takes in a string (in RPN notation), tokenizes it and if it a digit 
+it pushes it onto the stack. Otherwise, if it is a punctuation mark is pops digits
+off the stack and preforms the specificed operation. The following operations are 
+supported: addition, subtraction, multiplication, division.
+
+The program will not accept expressions with too many operators, too many operands
+or an invalid operator. 
+
